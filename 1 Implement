@@ -1,13 +1,5 @@
 // Implement
-/*
-Title:- Implement a class Complex which represents the Complex Number data type.
-Implement the following operations:
-1. Constructor (including a default constructor which creates the complex number 0+0i).
-2. Overloaded operator+ to add two complex numbers.
-3. Overloaded operator* to multiply two complex numbers.
-4. Overloaded << and >> to print and read Complex Numbers.
 
-*/
 
 #include <iostream>
 using namespace std;
@@ -85,19 +77,4 @@ int main()
     return 0;
 }
 
-/*Output:-
-student@student-OptiPlex-3010:~$ ./a.out
-Default constructor value=
-0+0i
-Enter the 1st number
-Enter the real part 2
-Enter the imaginary par t4
-Enter the 2nd number
-Enter the real part 4
-Enter the imaginary part 8
-The first number is 2+4i
-The second number is 4+8i
-The addition is 6+12i
-The multiplication is -24+32i
-student@student-OptiPlex-3010:~$
-*/
+
