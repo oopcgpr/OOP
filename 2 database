@@ -1,11 +1,5 @@
 // Database
 
-// Develop an object oriented program in C++ to create a  of student information system
-// containing the following information: Name, Roll number, Class, division, Date of Birth, Blood group,
-// Contact address, telephone number, driving license no. etc. Construct the database with suitable
-// member functions for initializing and destroying the data viz constructor, default constructor, Copy
-// constructor, destructor, static member functions, friend class, this pointer, inline code and dynamic
-// memory allocation operators-new and delete.
 
 #include <iostream>
 #include <cstring>
@@ -196,43 +190,3 @@ int main()
 	return 0;
 }
 
-/*
-Output:-
-student@student-OptiPlex-3010:~$ g++ groupa6.cpp
-student@student-OptiPlex-3010:~$ ./a.out
-Name Dob Blood Ht Wt Address License Insurance Contact
-Default Constructor Value
-XYZ dd/mm/yy A + 0 0 XYZ XY-0000000000 XY00000000X 0
-Copy Constructor Value
-XYZ dd/mm/yy A + 0 0 XYZ XY-0000000000 XY00000000X 0
-Enter how many records you want??2
-Welcome to Personal database system
-1. Enter the record
-2. Display the record
-3. Exit1
-Enter the Name abc
-Enter date of birth 15/5/2016
-Enter blood group o+
-Enter height 5
-Enter weight 50
-Enter address pune
-Enter Licence number jhdf87
-Enter Insurance policy number hdjsg7786
-Enter Contact number 989898989
-No of records count=1
-Welcome to Personal database system
-1. Enter the record
-2. Display the record
-3. Exit 2
-Name Dob Blood Ht Wt Address License Insurance Contact
-abc 15/5/2016 o+ 5 50 pune jhdf87 hdjsg7786 989898989
-XYZ dd/mm/yy A + 0 0 XYZ XY-0000000000 XY00000000X 0
-Welcome to Personal database system
-1. Enter the record
-2. Display the record
-3. Exit 3
-I am in Destructor
-I am in Destructor
-I am in Destructor
-I am in Destructor
-*/
